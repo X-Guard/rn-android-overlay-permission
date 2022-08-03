@@ -1,5 +1,5 @@
 {
-  "name": "rn-android-overlay-permission",
+  "name": "@x-guard/rn-android-overlay-permission",
   "version": "1.0.6",
   "description": "Overlay Permission for Android apps",
   "main": "index.js",
