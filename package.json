@@ -1,6 +1,6 @@
 {
   "name": "rn-android-overlay-permission",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Overlay Permission for Android apps",
   "main": "index.js",
   "scripts": {
@@ -15,10 +15,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0x1bitcrack3r/rn-android-overlay-permission.git"
+    "url": "git+https://github.com/X-Guard/rn-android-overlay-permission.git"
   },
   "bugs": {
-    "url": "https://github.com/0x1bitcrack3r/rn-android-overlay-permission/issues"
+    "url": "https://github.com/X-Guard/rn-android-overlay-permission/issues"
   },
-  "homepage": "https://github.com/0x1bitcrack3r/rn-android-overlay-permission#readme"
+  "homepage": "https://github.com/X-Guard/rn-android-overlay-permission#readme"
 }
