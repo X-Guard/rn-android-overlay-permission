@@ -14,7 +14,6 @@ import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
-import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.WritableArray;
 
@@ -57,9 +56,9 @@ public class OverlayPermissionModule extends ReactContextBaseJavaModule {
 
     @RequiresApi(api = Build.VERSION_CODES.M)
     @ReactMethod
-    public void isRequestOverlayPermissionGranted(Callback booleanCallback) {
+    public void isRequestOverlayPermissionGranted(Promise promise) {
         boolean equal=!Settings.canDrawOverlays(this.reactContext);
-        booleanCallback.invoke(equal);
+        promise.resolve(equal);
     }
 
 }
