@@ -57,7 +57,7 @@ public class OverlayPermissionModule extends ReactContextBaseJavaModule {
     @RequiresApi(api = Build.VERSION_CODES.M)
     @ReactMethod
     public void isRequestOverlayPermissionGranted(Promise promise) {
-        boolean equal=!Settings.canDrawOverlays(this.reactContext);
+        boolean equal= Settings.canDrawOverlays(this.reactContext);
         promise.resolve(equal);
     }
 
